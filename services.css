@@ -1,0 +1,69 @@
+
+body {
+    padding-top: 150px;
+}
+
+.navbar-brand {
+    position: absolute;
+    left: 50%;
+    top: 60px; 
+    transform: translate(-50%, -50%);
+    text-align: center;
+    z-index: 1;
+}
+
+.navbar-brand img {
+    max-height: 110px; 
+}
+
+.tagline {
+    font-size: 14px;
+    color: #666;
+    margin-top: 5px;
+}
+
+.navbar {
+    z-index: 0; 
+    padding-top: 20px; 
+}
+
+.navbar-nav {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+    background-color: #282626; 
+    padding: 10px 0; 
+    width: 100%; /
+}
+
+.navbar-nav .nav-item {
+    margin-right: 10px;
+
+}
+.navbar-nav .nav-link {
+    text-decoration: none !important;
+    background-color: transparent !important;
+}
+
+.navbar-nav .nav-link {
+    color: white !important; 
+    text-decoration: none; 
+    padding: 0.5rem 1rem; 
+}
+.service-item {
+    margin-bottom: 30px;
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.service-description h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.service-description p {
+    font-size: 1rem;
+    line-height: 1.5;
+}

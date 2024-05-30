@@ -1,0 +1,91 @@
+body {
+    padding-top: 150px;
+}
+
+.navbar-brand {
+    position: absolute;
+    left: 50%;
+    top: 60px; 
+    transform: translate(-50%, -50%);
+    text-align: center;
+    z-index: 1;
+}
+
+.navbar-brand img {
+    max-height: 110px; 
+}
+
+.tagline {
+    font-size: 14px;
+    color: #666;
+    margin-top: 5px;
+}
+
+.navbar {
+    z-index: 0; 
+    padding-top: 20px; 
+}
+
+.navbar-nav {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+    background-color: #282626; 
+    padding: 10px 0; 
+    width: 100%; /
+}
+
+.navbar-nav .nav-item {
+    margin-right: 10px;
+
+}
+.navbar-nav .nav-link {
+    text-decoration: none !important;
+    background-color: transparent !important;
+}
+
+.navbar-nav .nav-link {
+    color: white !important; 
+    text-decoration: none; 
+    padding: 0.5rem 1rem; 
+}
+.container {
+    margin-top: 50px;
+}
+
+.contact-form-container {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.contact-form button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.contact-form button[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+.contact-form .error-message {
+    color: #FF0000;
+    margin-bottom: 10px;
+}

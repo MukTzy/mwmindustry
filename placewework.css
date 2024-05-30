@@ -1,0 +1,82 @@
+body {
+    padding-top: 150px;
+}
+
+.navbar-brand {
+    position: absolute;
+    left: 50%;
+    top: 60px; 
+    transform: translate(-50%, -50%);
+    text-align: center;
+    z-index: 1;
+}
+
+.navbar-brand img {
+    max-height: 110px; 
+}
+
+.tagline {
+    font-size: 14px;
+    color: #666;
+    margin-top: 5px;
+}
+
+.navbar {
+    z-index: 0; 
+    padding-top: 20px; 
+}
+
+.navbar-nav {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+    background-color: #282626; 
+    padding: 10px 0; 
+    width: 100%; /
+}
+
+.navbar-nav .nav-item {
+    margin-right: 10px;
+
+}
+.navbar-nav .nav-link {
+    text-decoration: none !important;
+    background-color: transparent !important;
+}
+
+.navbar-nav .nav-link {
+    color: white !important; 
+    text-decoration: none; 
+    padding: 0.5rem 1rem; 
+}
+.container {
+    margin-top: 50px;
+}
+
+.place-we-work-content {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+h1 {
+    color: #333;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+li {
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #666;
+}
+
+@media (max-width: 767px) {
+    .place-we-work-content {
+        padding: 10px;
+    }
+}
